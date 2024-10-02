@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/61f847e9bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="main_cont">
+<h1 class="text-danger heading">TODO LIST</h1>
+<br>
+<input id="userinput" class="f1" type="text">
+<br>
+<button onclick="onaddnewtodo()" class="btn btn-outline-danger">Add-Todo</button>
+<br>
+
+<div class="main-Todo-cont">
+
+    <h2 class="f2">List Your Todos</h2>
+    <ul id="todoRoot" class="todo-list-cont"></ul>
+   <br></br>
+
+   <button onclick="onsavatodo()" id="f1" type="button" class="btn btn-outline-success">save</button>
+    
+</div>
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
